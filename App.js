@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './scr/Home';
 //import ForgotPassword from './src/ForgotPassword';
 import Registration from './scr/Registration';
-//import Profile from './src/Profile';
+import Profile from './scr/Profile';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +17,7 @@ function App() {
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Registration" component={Registration} />
-              
+        <Stack.Screen name="Profile" component={Profile} />      
       </Stack.Navigator>
     </NavigationContainer>
   );
