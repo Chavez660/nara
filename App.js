@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './scr/Home';
-//import ForgotPassword from './src/ForgotPassword';
+import ForgotPassword from './scr/ForgotPassword';
 import Registration from './scr/Registration';
 import Profile from './scr/Profile';
 
@@ -15,6 +15,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
+      <Stack.Screen name="ForgotPassword?" component={ForgotPassword} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Registration" component={Registration} />
         <Stack.Screen name="Profile" component={Profile} />      

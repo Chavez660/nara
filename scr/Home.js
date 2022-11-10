@@ -13,10 +13,16 @@ import LoginVerify from "../components/LoginVerify/LoginVerify";
 
 
 
-
+const NavigationToForgotPassword = props => {
+  props.navigation.navigate('ForgotPassword?');
+}
 const NavigationToRegistration = props => {
   props.navigation.navigate('Registration');
 }
+const NavigationToProfile = props => {
+  props.navigation.navigate('Profile');
+}
+
 
 const Home = props => {
 
