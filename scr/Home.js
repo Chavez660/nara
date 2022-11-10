@@ -10,11 +10,13 @@ import {
 } from "react-native";
 import LoginFeedback from "../components/LoginVerify/LoginFeedback";
 import LoginVerify from "../components/LoginVerify/LoginVerify";
-import { NavigationContainer } from '@react-navigation/native';
 
 
 
 
+const NavigationToRegistration = props => {
+  props.navigation.navigate('Registration');
+}
 
 const Home = props => {
 
