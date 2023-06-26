@@ -49,7 +49,7 @@ useEffect(() => {
          />
         </View>
         <ForgotFeedback returnCode={returnCode} />
-          <Button disabled={btnDisabled} color="#0000FF" title='Submit' onPress={()=> NavigationToHome(props) }></Button>
+          <Button disabled={btnDisabled} color="#A57A5A" title='Submit' onPress={()=> NavigationToHome(props) }></Button>
     </View>
     );
 }
@@ -57,13 +57,13 @@ useEffect(() => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#D3D3D3",
     alignItems: "center",
     justifyContent: "center",
   },
 
   inputView: {
-    backgroundColor: "#0000FF",
+    backgroundColor: "#A57A5A",
     borderRadius: 10,
     width: 120,
     height: 40,

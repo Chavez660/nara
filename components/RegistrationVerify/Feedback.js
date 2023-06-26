@@ -22,15 +22,6 @@ function Feedback(props) {
         text_content = 'Password is not valid'
         text_color = 'red'
     }
-    else if (props.returnCode === 6) {
-        text_content = 'Passwords do not match'
-        text_color = 'red'
-    }
-    else {
-        text_content = 'Unknown error'
-        text_color = 'red'
-    }
-    
     return (
         <SafeAreaView>
             <Text style={{
